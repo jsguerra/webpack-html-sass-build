@@ -1,1 +1,1 @@
-# webpack-html-sass-build
+# Webpack HTML Sass Build
