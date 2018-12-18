@@ -4,17 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jsguerra/webpack-html-sass-build.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Guerra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jsguerra/webpack-html-sass-build/issues"
   },
-  "homepage": "https://github.com/jsguerra/webpack-html-sass-build#readme"
+  "homepage": "https://github.com/jsguerra/webpack-html-sass-build#readme",
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
