@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/jsguerra/webpack-html-sass-build.git"
   },
-  "keywords": [],
+  "keywords": ["webpack", "html", "sass", "starter"],
   "author": "Jose Guerra",
   "license": "ISC",
   "bugs": {
