@@ -15,6 +15,7 @@
     "webpack",
     "html",
     "sass",
+    "boilerplate",
     "starter"
   ],
   "author": "Jose Guerra",
