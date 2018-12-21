@@ -2,6 +2,13 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+
+  // https://webpack.js.org/concepts/entry-points/#multi-page-application
+  entry: {
+    index: './src/index.js',
+    about: './src/about.js'
+  },
+
   module: {
     rules: [
       {
