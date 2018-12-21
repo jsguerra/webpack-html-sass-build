@@ -56,7 +56,15 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
+      inject: true,
+      chunks: ['index'],
       filename: "./index.html"
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/about.html",
+      inject: true,
+      chunks: ['about'],
+      filename: "./about.html"
     }),
     new MiniCssExtractPlugin({
       filename: "./css/[name].css",
