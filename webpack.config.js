@@ -58,7 +58,7 @@ module.exports = {
       template: "./src/index.html",
       inject: true,
       chunks: ['index'],
-      filename: "./index.html"
+      filename: "index.html"
     }),
     new HtmlWebPackPlugin({
       template: "./src/about.html",
