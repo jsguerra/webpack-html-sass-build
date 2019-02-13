@@ -18,15 +18,15 @@ module.exports = {
           loader: "babel-loader"
         }
       },
-      {
-        test: /\.html$/,
-        use: [
-          {
-            loader: "html-loader",
-            options: { minimize: true }
-          }
-        ]
-      },
+      // {
+      //   test: /\.html$/,
+      //   use: [
+      //     {
+      //       loader: "html-loader",
+      //       options: { minimize: true }
+      //     }
+      //   ]
+      // },
       {
         test: /\.(png|jpe?g)/i,
         use: [
