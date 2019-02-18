@@ -28,7 +28,6 @@
     "last 2 versions"
   ],
   "devDependencies": {
-    "autoprefixer": "^9.4.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
