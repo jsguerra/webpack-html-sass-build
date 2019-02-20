@@ -3,11 +3,14 @@ const HTMLWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
   entry: {
-    main: ["./src/index.js"]
+    main: [
+      "babel-runtime/regenerator",
+      "./src/index.js"
+    ]
   },
   mode: "development",
   output: {
-    filename: "[name]-bundle.js",
+    filename: "js/[name]-bundle.js",
     path: path.resolve(__dirname, "../dist"),
     publicPath: "/"
   },
@@ -30,7 +33,12 @@ module.exports = {
         test: /\.(sa|sc|c)ss$/,
         use: [
           { loader: "style-loader" },
-          { loader: "css-loader" },
+          {
+            loader: "css-loader",
+            options: {
+              sourceMap: true
+            }
+          },
           { loader: "postcss-loader" },
           {
             loader: "sass-loader",
